@@ -1,10 +1,10 @@
-#include <openssl/aes.h>
+#include <openssl/aes.h>  // this version uses openssl. Need to code it independently.
 #include <openssl/rand.h>
 #include <string.h>
 
 void generateKey(unsigned char *key) {
     // Securely generate a random key for AES 256
-    RAND_bytes(key, 32);
+    RAND_bytes(key, 32); 
 }
 
 void aesEncrypt(unsigned char *plaintext, int plaintext_len, unsigned char *key, unsigned char *ciphertext) {
