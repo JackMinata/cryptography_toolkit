@@ -38,7 +38,7 @@ int main() {
     // Generate or set a fixed key
     generateKey(key);
 
-    printf("Enter plaintext: ");
+    printf("Enter plaintext to crypto: ");
     fgets((char *)plaintext, 128, stdin); // Simple input, not production-safe
 
     // Encrypt
