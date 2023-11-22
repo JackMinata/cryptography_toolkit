@@ -8,7 +8,7 @@ void generateKey(unsigned char *key) {
 }
 
 void aesEncrypt(unsigned char *plaintext, int plaintext_len, unsigned char *key, unsigned char *ciphertext) {
-    // AES encryption logic using OpenSSL
+    // AES encryption logic using OpenSSL - this could be updated to use an original encryption function
 
     // Initialize the encryption key structure
     AES_KEY enc_key;
