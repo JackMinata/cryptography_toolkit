@@ -43,12 +43,12 @@ int main() {
 
     // Encrypt
     aesEncrypt(plaintext, key, ciphertext);
-    printf("Encrypted text: ");
+    printf("Encrypted text (you're welcome): ");
     // Print ciphertext in a readable format
 
     // Decrypt
     aesDecrypt(ciphertext, key, plaintext);
-    printf("Decrypted text: %s\n", plaintext);
+    printf("Decrypted text (for testing): %s\n", plaintext);
 
     return 0;
 }
