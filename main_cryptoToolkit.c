@@ -15,7 +15,7 @@ void aesEncrypt(unsigned char *plaintext, int plaintext_len, unsigned char *key,
     AES_set_encrypt_key(key, 256, &enc_key);
 
     // Encrypt the plaintext
-    // Note: The plaintext length must be a multiple of AES_BLOCK_SIZE
+    // Note: The plaintext length must be a multiple of AES_BLOCK_SIZE (can it be done better?)
     AES_encrypt(plaintext, ciphertext, &enc_key);
 }
 
