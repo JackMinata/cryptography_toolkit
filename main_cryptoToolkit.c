@@ -1,4 +1,4 @@
-#include <openssl/aes.h>  // this version uses openssl. Need to code it independently.
+#include <openssl/aes.h>  // this version uses openssl. Need to code it independently. Sure.
 #include <openssl/rand.h>
 #include <string.h>
 
